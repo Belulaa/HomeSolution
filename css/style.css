@@ -25,6 +25,12 @@ main{
     background: linear-gradient(90deg, rgba(208,232,208,1) 0%, rgba(144,212,161,1) 36%, rgba(163,222,235,1) 100%);
 }
 
+.btn{
+    background: linear-gradient(90deg, rgba(163,222,235,1) 0%, rgba(144,212,161,1) 36%, rgba(208,232,208,1) 100%);
+    border-color: black;
+    display:grid;
+}
+
 /*carrusel inicio*/
 
 * {
