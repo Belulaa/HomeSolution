@@ -12,6 +12,13 @@ header nav{
     background: linear-gradient(90deg, rgba(164,241,164,1) 0%, rgba(94,185,117,1) 36%, rgba(104,212,235,1) 100%);
 }
 
+header .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
 header .logo img {
     height: 50px;
 }
@@ -194,6 +201,48 @@ li a{
 .producto span {
     color: #e53935;
 }
+
+ /*inicio grid main abajo*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 30px;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  
+
+  .item1 {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 4;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .item1 img{
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .item4 {
+      grid-column-start: 3;
+      grid-column-end: 5;
+      grid-row-start: 2;
+      grid-row-end: 3;
+  }
+
+  /*fin grid main abajo*/
 
 /*------------------------------------------ footer ------------------------------------------*/
 
