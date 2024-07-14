@@ -244,6 +244,51 @@ li a{
 
   /*fin grid main abajo*/
 
+
+/*--------------------------------------- ofertas-----------------------------------------------*/
+
+
+.secciones {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+.secciones, .approach, .contact {
+    padding: 20px 0;
+    background: #fff;
+}
+
+.secciones .container, .approach .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secciones img, .approach img {
+    max-width: 45%;
+}
+
+.secciones-text, .approach-text {
+    max-width: 45%;
+}
+
+.secciones-text h2, .approach-text h2, .contact-text h2 {
+    margin-bottom: 10px;
+}
+
+.secciones-text button, .approach-text button, .contact-text button {
+    background: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+
 /*------------------------------------------ footer ------------------------------------------*/
 
 footer {
