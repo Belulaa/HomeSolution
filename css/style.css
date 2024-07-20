@@ -28,8 +28,8 @@ header .logo img {
 
 main{
     padding: 20px;
-    background: rgb(208,232,208);
-    background: linear-gradient(90deg, rgba(208,232,208,1) 0%, rgba(144,212,161,1) 36%, rgba(163,222,235,1) 100%);
+    background: rgb(200,237,209);
+    background: linear-gradient(0deg, rgba(200,237,209,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .btn{
@@ -202,47 +202,47 @@ li a{
     color: #e53935;
 }
 
- /*inicio grid main abajo*/
+/*inicio grid main abajo*/
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
     gap: 30px;
     padding: 10px;
-  }
-  
-  .grid-container > div {
+}
+
+.grid-container > div {
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
-  }
-  
+}
 
-  .item1 {
-      grid-column-start: 1;
-      grid-column-end: 3;
-      grid-row-start: 1;
-      grid-row-end: 4;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
 
-  .item1 img{
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1 img{
     width: 100%;
     height: auto;
     display: block;
-  }
-  
-  .item4 {
-      grid-column-start: 3;
-      grid-column-end: 5;
-      grid-row-start: 2;
-      grid-row-end: 3;
-  }
+}
 
-  /*fin grid main abajo*/
+.item4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+/*fin grid main abajo*/
 
 
 /*--------------------------------------- ofertas-----------------------------------------------*/
@@ -288,6 +288,44 @@ li a{
     cursor: pointer;
 }
 
+/*------------------------------------------ Categorias ------------------------------------------*/
+.categoria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-top: 30px;
+}
+
+.boton-cat {
+    display: flex;
+    gap: 60px;
+}
+
+.botones-cat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s;
+}
+
+.botones-cat:hover {
+    transform: scale(1.1);
+}
+
+.botones-cat img {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 10px;
+}
 
 /*------------------------------------------ footer ------------------------------------------*/
 
