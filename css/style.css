@@ -442,16 +442,6 @@ footer {
     position: relative;
 }
 
-.logo-footer{
-    position: absolute;
-    bottom: 30px;
-    left: 20px;
-}
-
-.logo-footer img{
-    height: 90px;
-}
-
 .redes-sociales{
     margin-bottom: 20px;
 }
