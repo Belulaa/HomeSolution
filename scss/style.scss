@@ -1,0 +1,31 @@
+/*
+1° las utilities
+2° las bases
+3° los layouts
+4° componentes
+5° mediaquery 
+*/
+
+@import "./base/resets";
+
+
+@import "./layout/header";
+
+@import "./layout/main-index";
+
+@import "./layout/main-ofertas";
+
+@import "./layout/main-ayuda";
+
+@import "./layout/main-categoria";
+
+@import "./layout/main-login";
+
+@import "./layout/main-register";
+
+/*--------------------------------Comienzo Footer --------------------------------*/
+
+@import "./layout/footer";
+
+/*components*/
+@import "./components/card";

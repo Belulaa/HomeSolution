@@ -1,0 +1,43 @@
+.ayuda-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.ayuda-menu-item:hover {
+    background-color: #ccc;
+}
+
+.ayuda-content {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ayuda-content-item {
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.ayuda-content-item:hover{
+    background-color: #ccc;
+}
+
+.ayuda-content-item a{
+    text-decoration: none;
+}
+
+.ayuda-content-item h2 {
+    margin-top: 0;
+}
+
+.h3ayuda {
+    color: #000000;
+}
+.payuda {
+    color: #6b6969;
+}

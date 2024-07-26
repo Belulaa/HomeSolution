@@ -1,0 +1,36 @@
+/*.custom-card {
+    max-width: 400px;
+}
+.large-image {
+    width: 100%;
+    height: auto;
+}
+
+.small-image {
+    width: 100%;
+    height: auto;
+}*/
+
+
+.custom-card {
+    max-width: 400px; /* Ajusta el ancho máximo de la tarjeta */
+    .large-image {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+    .small-image {
+        width: 100%;
+        height: auto;
+        transition: border 0.1s ease;
+
+        &:hover {
+            transform: scale(1.5);
+        }
+    }
+}

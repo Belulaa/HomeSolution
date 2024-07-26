@@ -1,0 +1,15 @@
+header nav{
+    background: rgb(164,241,164);
+    background: linear-gradient(90deg, rgba(164,241,164,1) 0%, rgba(94,185,117,1) 36%, rgba(104,212,235,1) 100%);
+}
+
+header .navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+header .logo img {
+    height: 50px;
+}

@@ -1,0 +1,154 @@
+.mofertas {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.sidebar h2, .sidebar h3 {
+    margin-bottom: 10px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    width: 100%;
+    gap: 3.125rem;
+    display: block;
+}
+
+.sidebar ul li {
+    margin-bottom: 5px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block; 
+    width: 100%;
+    padding: 5px 0;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.filter {
+    margin-bottom: 20px;
+}
+
+.filter label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    width: 75%;
+}
+
+.product {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+}
+
+
+.hero {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e0f7fa;
+}
+
+.hero-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.hero-item img {
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.ofertas {
+    padding: 20px;
+    text-align: center;
+}
+
+.ofertas h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.producto p {
+    margin: 5px 0;
+}
+
+.producto span {
+    color: #e53935;
+}
